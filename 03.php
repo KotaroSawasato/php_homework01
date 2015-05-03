@@ -9,7 +9,7 @@
 
 	
 	if($m[0] !== $data02){ ?>
-	<FONT color="red">学籍番号は数字で入力してください。10秒後に最初のページへ移動します。</FONT><br>
+	<FONT color="red">学籍番号は10桁の数字で入力してください。10秒後に最初のページへ移動します。</FONT><br>
 	<meta http-equiv="refresh" content="10;URL=../php_homework01/01.php">
 	<?php } ?>
 	
